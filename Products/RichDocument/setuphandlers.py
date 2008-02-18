@@ -4,10 +4,6 @@ from Products.SimpleAttachment.setuphandlers import registerImagesFormController
 from Products.SimpleAttachment.setuphandlers import registerAttachmentsFormControllerActions
 
 def setupRichDocument(context):
-    
-    # XXX: Since this is run an as extension profile, this shouldn't be 
-    # needed IMHO, but GS will run this step again if RD has been inspected
-    # for an import_steps.xml again.
     if context.readDataFile('richdocument_various.txt') is None:
         return
     
