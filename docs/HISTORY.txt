@@ -1,0 +1,9 @@
+Changelog for Products.RichDocument
+
+    (name of developer listed in brackets)
+
+Products.RichDocument - 1.0 Unreleased
+
+    - Initial package structure.
+      [zopeskel]
+
