@@ -7,5 +7,4 @@ from Products.ATContentTypes.interface import IATDocument
 class IRichDocument(IATDocument):
     """RichDocument marker interface
     """
-    
-    pass
+

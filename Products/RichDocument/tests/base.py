@@ -27,3 +27,4 @@ class RichDocumentTestCase(PloneTestCase.PloneTestCase):
 
     # You may wish to define additional helper methods
     # here that will be available in all tests.
+
