@@ -1,9 +1,8 @@
-Changelog for Products.RichDocument
+Changelog
+=========
 
-    (name of developer listed in brackets)
+3.0.1
+-----
 
-Products.RichDocument - 1.0 Unreleased
-
-    - Initial package structure.
-      [zopeskel]
-
+* Repackaged RichDocument in egg form
+  [wichert]

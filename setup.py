@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+import os
 
 version = '3.0.1'
 
@@ -6,8 +7,8 @@ setup(name='Products.RichDocument',
       version=version,
       description="Document type for Plone which allows users to upload "
                   "images directly into the document during editing", 
-      long_description=open("README.txt"),
-      # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
+      long_description=open("README.txt").read() + "\n" +
+                       open(os.path.join(docs, "HISTORY.txt").read(),
       classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",
