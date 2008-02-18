@@ -4,5 +4,9 @@ Changelog
 3.0.1
 -----
 
+* Register the skin layers for all skins. Without this RichDocument would
+  not work when installed in sites using a custom theme.
+  [wichert]
+
 * Repackaged RichDocument in egg form
   [wichert]
