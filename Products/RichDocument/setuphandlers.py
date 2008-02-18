@@ -1,6 +1,3 @@
-from Products.CMFCore.interfaces import IPropertiesTool
-from Products.CMFQuickInstallerTool.interfaces import IQuickInstallerTool
-
 from Products.CMFCore.utils import getToolByName
 
 from Products.SimpleAttachment.setuphandlers import registerImagesFormControllerActions

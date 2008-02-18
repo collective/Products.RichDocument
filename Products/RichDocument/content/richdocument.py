@@ -5,8 +5,6 @@ __docformat__ = 'plaintext'
 
 from zope.interface import implements
 
-from AccessControl import ClassSecurityInfo
-
 try:
   from Products.LinguaPlone.public import *
 except ImportError:

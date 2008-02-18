@@ -1,8 +1,7 @@
-from Globals import package_home
 from Products.CMFCore import utils, DirectoryView
 from Products.Archetypes.atapi import listTypes, process_types
 
-import os, os.path, sys, content
+import sys, content
 
 from Products.SimpleAttachment import content as attachment_content
 from Products.SimpleAttachment import widget
