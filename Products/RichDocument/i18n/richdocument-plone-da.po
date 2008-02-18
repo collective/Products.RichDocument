@@ -1,0 +1,47 @@
+# Sébastien Douche <sdouche@gmail.com>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: RichDocument\n"
+"POT-Creation-Date: 2005-09-01 11:30+0200\n"
+"PO-Revision-Date: 2006-09-06 21:03+0100\n"
+"Last-Translator: Anton Stonor <anton@headnet.dk>\n"
+"Language-Team: Translation Team <plone-i18n@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: da\n"
+"Language-Name: Danish\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+
+#. Default: "Rich document"
+#: ./content/richdocument.py
+msgid "Rich document"
+msgstr "Artikel"
+
+#. Default: "Float first image"
+#: ./skins/RichDocument/richdocument_view_float.pt.metadata
+msgid "Float first image"
+msgstr "Billede 1 øverst til højre"
+
+#. Default: "Basic document view"
+#: ./skins/RichDocument/richdocument_view.pt.metadata
+msgid "Basic document view"
+msgstr "Normalvisning"
+
+#. Default: "Preview thumbnails"
+#: ./skins/RichDocument/richdocument_view_preview.pt.metadata
+msgid "Preview thumbnails"
+msgstr "Vis med thumbnails"
+
+#. Default: "A document which can contain rich text, images and attachments"
+#: ./content/richdocument.py
+msgid "RichDocument_description_edit"
+msgstr "En artikel, der kan vedhæftes billeder og filer"
+
+#. Default: "A document which may contain directly uploaded images and attachments."
+#: ./content/richdocument.py
+msgid "A document which may contain directly uploaded images and attachments."
+msgstr "En artikel, der kan vedhæftes billeder og filer"
+

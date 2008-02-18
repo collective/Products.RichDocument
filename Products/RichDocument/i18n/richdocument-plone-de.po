@@ -1,0 +1,50 @@
+# Dorneles Treméa <deo@plonesolutions.com>, 2006.
+# Sébastien Douche <sdouche@gmail.com>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: RichDocument\n"
+"POT-Creation-Date: 2005-09-01 11:30+0200\n"
+"PO-Revision-Date: 2006-11-06 14:44+0100\n"
+"Last-Translator: Daniel Widerin <daniel.widerin@kombinat.at>\n"
+"Language-Team: Translation Team <plone-i18n@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: de\n"
+"Language-Name: German\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+"X-Is-Fallback-For: de-at de-li de-lu de-ch de-de\n"
+
+#. Default: "Rich document"
+#: ./content/richdocument.py
+msgid "Rich document"
+msgstr ""
+
+#. Default: "Float first image"
+#: ./skins/RichDocument/richdocument_view_float.pt.metadata
+#, fuzzy
+msgid "Float first image"
+msgstr "Erstes Bild groß anzeigen"
+
+#. Default: "Basic document view"
+#: ./skins/RichDocument/richdocument_view.pt.metadata
+msgid "Basic document view"
+msgstr "Standardansicht"
+
+#. Default: "Preview thumbnails"
+#: ./skins/RichDocument/richdocument_view_preview.pt.metadata
+msgid "Preview thumbnails"
+msgstr "Bildvorschau"
+
+#. Default: "A document which can contain rich text, images and attachments"
+#: ./content/richdocument.py
+msgid "RichDocument_description_edit"
+msgstr "Ein Dokument das direkt Bilder und Dateien enthalten kann."
+
+#. Default: "A document which may contain directly uploaded images and attachments."
+#: ./content/richdocument.py
+msgid "A document which may contain directly uploaded images and attachments."
+msgstr "Ein Dokument das direkt Bilder und Dateien enthalten kann."
+

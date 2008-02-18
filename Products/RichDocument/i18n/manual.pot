@@ -1,0 +1,38 @@
+# Dorneles Treméa <deo@plonesolutions.com>, 2006.
+# Sébastien Douche <sdouche@gmail.com>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: RichDocument\n"
+"POT-Creation-Date: 2005-09-07 16:18+0000\n"
+"PO-Revision-Date: 2005-09-01 13:21+0000\n"
+"Last-Translator: Dorneles Treméa <dorneles@x3ng.com.br>\n"
+"Language-Team: Translation Team <plone-i18n@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: richdocument\n"
+
+#. Default: "If selected, a list of uploaded attachments will be presented at the bottom of the document to allow them to be easily downloaded."
+#: ./content/richdocument.py
+msgid "RichDocument_help_displayAttachments"
+msgstr ""
+
+#. Default: "If selected, a list of uploaded images will be presented at the bottom of the document to allow them to be easily downloaded."
+#: ./content/richdocument.py
+msgid "RichDocument_help_displayImages"
+msgstr ""
+
+#. Default: "Display images download box"
+#: ./content/richdocument.py
+msgid "RichDocument_label_displayImages"
+msgstr ""
+
+#. Default: "Display attachments download box"
+#: ./content/richdocument.py
+msgid "RichDocument_label_displayAttachments"
+msgstr ""
+

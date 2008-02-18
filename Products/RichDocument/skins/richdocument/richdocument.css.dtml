@@ -1,0 +1,81 @@
+/* <dtml-with base_properties> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+/* Preview box */
+
+.imagesPreviewBox {
+	border: none;
+	margin: 0 0 1em 1em;
+	padding: 0;
+	overflow: none;
+	float: right;
+}
+
+	
+.imagesPreviewBoxHeader  {	
+	background: &dtml-globalBackgroundColor;;
+	color: &dtml-globalFontColor;;
+	border: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
+	border-bottom: none;
+	padding: 0 1em;
+	margin: 0;
+	text-transform: &dtml-textTransform;;
+	font-size: 90%;
+	display: block;
+	font-weight: normal;
+	white-space: nowrap;
+	position: relative;
+}
+
+.imagesPreviewBoxBody {
+	padding: 2px 1px 1px 2px;
+	margin: 0;
+	border: 1px &dtml-borderStyle; &dtml-globalBorderColor;;
+	border-collapse: collapse;
+	font-size: 90%;
+	color: &dtml-fontColor;;
+	text-align: center;
+	overflow: none;
+	position: relative;
+}
+
+.imagesPreviewBoxImage {
+	margin-bottom: 1px;
+	text-align: center;
+}
+
+.bottomDivider {
+	border-bottom: 1px &dtml-borderStyle; &dtml-globalBorderColor;;
+	position: relative;
+	margin-bottom: 1em;
+}
+
+.topDivider {
+	border-top: 1px &dtml-borderStyle; &dtml-globalBorderColor;;
+	position: relative;
+}
+
+/* Floating preview */
+
+.imageFloat {
+    text-align: center;
+    float: left;
+	margin: 0 5px 5px 5px;
+}
+
+.imageFloat .caption {
+    color: &dtml-discreetColor;;
+    text-align: left;
+    font-size: &dtml-fontSmallSize;;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+
+/* </dtml-with> */
+
+
+
+
+
+

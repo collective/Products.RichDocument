@@ -1,0 +1,18 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:gs="http://namespaces.zope.org/genericsetup"
+    xmlns:five="http://namespaces.zope.org/five"
+    i18n_domain="RichDocument">
+
+    <!-- Register the GenericSetup extension profile so that we can
+          install the product
+      -->
+    <gs:registerProfile
+          name="default"
+          title="RichDocument"
+          directory="profiles/default"
+          description="An extension of the default Page type to include image and file attachments"
+          provides="Products.GenericSetup.interfaces.EXTENSION"
+          />
+    
+</configure>

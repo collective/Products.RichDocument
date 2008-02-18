@@ -1,0 +1,49 @@
+# Translation of richdocument-plone.pot to Chinese
+# Wei Litao <wlt008@gmail.com>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: RichDocument\n"
+"POT-Creation-Date: 2005-09-01 11:30+0200\n"
+"PO-Revision-Date: 2006-02-27 02:21-0300\n"
+"Last-Translator: Wei Litao <wlt008@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: zh\n"
+"Language-Name: 简体中文\n"
+"Preferred-Encodings: utf-8\n"
+"Domain: plone\n"
+"X-Is-Fallback-For: zh-cn zh-hk zh-mo zh-sg\n"
+
+#. Default: "A document which may contain directly uploaded images and attachments."
+#: ./content/richdocument.py
+msgid "A document which may contain directly uploaded images and attachments."
+msgstr ""
+
+#. Default: "Basic document view"
+#: ./skins/RichDocument/richdocument_view.pt.metadata
+msgid "Basic document view"
+msgstr "基本文章视图"
+
+#. Default: "Float first image"
+#: ./skins/RichDocument/richdocument_view_float.pt.metadata
+msgid "Float first image"
+msgstr "上浮第一张图视图"
+
+#. Default: "Preview thumbnails"
+#: ./skins/RichDocument/richdocument_view_preview.pt.metadata
+msgid "Preview thumbnails"
+msgstr "图像缩略预览视图"
+
+#. Default: "Rich document"
+#: ./content/richdocument.py
+msgid "Rich document"
+msgstr "丰富文档"
+
+#. Default: "A document which can contain rich text, images and attachments"
+#: ./content/richdocument.py
+msgid "RichDocument_description_edit"
+msgstr "网站的文档，可包含丰富格式的文本，图像和附件."
+

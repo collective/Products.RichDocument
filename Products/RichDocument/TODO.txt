@@ -1,0 +1,24 @@
+RichDocument TODO
+-----------------
+ 
+ - Try to get image upload in kupu to work with ImageAttachments instead of
+    Images
+ 
+Known issues:
+ 
+ - Should implement a custom addTranslation from ITranslatable to copy images
+    and attachments to the translated document (or link?) when adding a
+    translation.
+ 
+ - kupu thinks that the current folder is the containing folder when the object
+    is in the factory (for image upload etc.)
+ 
+ - If the image or attachment upload fields are filled in, or the change title
+   boxes have been altered when the user presses "Save" on the whole document, 
+   it would be good if the widgets responded by uploading and/or renaming
+   as appropriate. We can abuse process_form() for this, thought it may be
+   better to make custom fields as well.
+
+ - Clean up template markup
+    - Use of style attributes instead of proper CSS classes
+    - Use of presentation markup

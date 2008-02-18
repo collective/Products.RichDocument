@@ -1,0 +1,48 @@
+# Dorneles Treméa <deo@plonesolutions.com>, 2006.
+# Sébastien Douche <sdouche@gmail.com>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: RichDocument\n"
+"POT-Creation-Date: 2005-09-01 11:30+0200\n"
+"PO-Revision-Date: 2006-03-10 17:25+0100\n"
+"Last-Translator: Radim Novotny <r.novotny@elektrika.cz>\n"
+"Language-Team: Translation Team <plone-i18n@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: cs\n"
+"Language-Name: Czech\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+
+#. Default: "Rich document"
+#: ./content/richdocument.py
+msgid "Rich document"
+msgstr "Rozšířený dokument"
+
+#. Default: "Float first image"
+#: ./skins/RichDocument/richdocument_view_float.pt.metadata
+msgid "Float first image"
+msgstr "Předsadit první obrázek"
+
+#. Default: "Basic document view"
+#: ./skins/RichDocument/richdocument_view.pt.metadata
+msgid "Basic document view"
+msgstr "Základní zobrazení"
+
+#. Default: "Preview thumbnails"
+#: ./skins/RichDocument/richdocument_view_preview.pt.metadata
+msgid "Preview thumbnails"
+msgstr "Náhledy obrázků"
+
+#. Default: "A document which can contain rich text, images and attachments"
+#: ./content/richdocument.py
+msgid "RichDocument_description_edit"
+msgstr "Dokument, který může sdružovat obrázky a přilohy"
+
+#. Default: "A document which may contain directly uploaded images and attachments."
+#: ./content/richdocument.py
+msgid "A document which may contain directly uploaded images and attachments."
+msgstr "Dokument, který může sdružovat obrázky a přilohy, nahrávané při editaci dokumentu"
+

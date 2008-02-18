@@ -1,0 +1,123 @@
+# Translation of richdocument.pot to French
+# Sébastien Douche <sdouche@gmail.com>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: RichDocument\n"
+"POT-Creation-Date: 2006-02-27 06:37+0000\n"
+"PO-Revision-Date: 2006-02-27 02:41-0300\n"
+"Last-Translator: Sébastien Douche <sdouche@gmail.com>\n"
+"Language-Team: French Translation Team <plone-i18n@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: fr\n"
+"Language-Name: Français\n"
+"Preferred-Encodings: latin1 utf-8\n"
+"Domain: richdocument\n"
+"X-Is-Fallback-For: fr-be fr-ca fr-lu fr-mc fr-ch fr-fr\n"
+
+#. Default: "Change titles"
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "Change titles"
+msgstr "Changer les titres"
+
+#. Default: "Delete selected"
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "Delete selected"
+msgstr "Effacer la selection"
+
+#. Default: "Move first"
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "Move first"
+msgstr "Déplacer en premier"
+
+#. Default: "If selected, a list of uploaded attachments will be presented at the bottom of the document to allow them to be easily downloaded."
+#: ../content/richdocument.py
+msgid "RichDocument_help_displayAttachments"
+msgstr ""
+
+#. Default: "If selected, a list of uploaded images will be presented at the bottom of the document to allow them to be easily downloaded."
+#: ../content/richdocument.py
+msgid "RichDocument_help_displayImages"
+msgstr ""
+
+#. Default: "Display attachments download box"
+#: ../content/richdocument.py
+msgid "RichDocument_label_displayAttachments"
+msgstr ""
+
+#. Default: "Display images download box"
+#: ../content/richdocument.py
+msgid "RichDocument_label_displayImages"
+msgstr ""
+
+#. Default: "Upload"
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "Upload"
+msgstr "Télécharger"
+
+#. Default: "Once an image is uploaded, you can refer to it in your body text by its filename."
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+msgid "help_widget_imagesmanager_upload"
+msgstr "Une fois que l'image est téléchargée, vous pouvez y faire référence dans le corps du texte par son nom."
+
+#. Default: "Select an attachment to add and click 'Upload'"
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "help_widgetattachmentsmanager_attachment"
+msgstr "Sélectionnez un attachement à ajouter et cliquez sur 'Télécharger'."
+
+#. Default: "Enter a title for the attachment"
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "help_widgetattachmentsmanager_title"
+msgstr "Entrer un titre pour l'attachement."
+
+#. Default: "Once an attachment is uploaded, you can refer to it in your body text by its filename."
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "help_widgetattachmentsmanager_upload"
+msgstr "Une fois que l'attachement est téléchargé, vous pouvez y faire référence dans le corps du texte par son nom."
+
+#. Default: "Select an image to add and click 'Upload'"
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+msgid "help_widgetimagesmanager_images"
+msgstr "Sélectionnez une image à ajouter et cliquez sur 'Télécharger'."
+
+#. Default: "Enter a title for the image"
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+msgid "help_widgetimagesmanager_title"
+msgstr "Enter le nom pour l'image."
+
+#. Default: "Add attachment to document"
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "label_widgetattachmentsmanager_title"
+msgstr "Ajouter un attachement au document"
+
+#. Default: "Add image to document"
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+msgid "label_widgetimagesmanager_title"
+msgstr "Ajouter une image au document"
+
+#. Default: "Attachments"
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "legend_attachments"
+msgstr "Attachements"
+
+#. Default: "Images"
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+msgid "legend_images"
+msgstr "Images"
+
+#. Default: "Attachment management controls"
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "title_widgetattachmentsmanager"
+msgstr "Gestion des attachements"
+
+#. Default: "Image management controls"
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+msgid "title_widgetimagesmanager"
+msgstr "Gestion des images"
+

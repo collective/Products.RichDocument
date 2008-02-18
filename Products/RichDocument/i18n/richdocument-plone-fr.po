@@ -1,0 +1,49 @@
+# Translation of richdocument-plone.pot to French
+# Sébastien Douche <sdouche@gmail.com>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: RichDocument\n"
+"POT-Creation-Date: 2005-09-01 11:30+0200\n"
+"PO-Revision-Date: 2006-02-27 03:04-0300\n"
+"Last-Translator: Sébastien Douche <sdouche@gmail.com>\n"
+"Language-Team: Translation Team <plone-i18n@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: fr\n"
+"Language-Name: Français\n"
+"Preferred-Encodings: latin1 utf-8\n"
+"Domain: plone\n"
+"X-Is-Fallback-For: fr-be fr-ca fr-lu fr-mc fr-ch fr-fr\n"
+
+#. Default: "A document which may contain directly uploaded images and attachments."
+#: ./content/richdocument.py
+msgid "A document which may contain directly uploaded images and attachments."
+msgstr ""
+
+#. Default: "Basic document view"
+#: ./skins/RichDocument/richdocument_view.pt.metadata
+msgid "Basic document view"
+msgstr "Vue basique"
+
+#. Default: "Float first image"
+#: ./skins/RichDocument/richdocument_view_float.pt.metadata
+msgid "Float first image"
+msgstr "première image"
+
+#. Default: "Preview thumbnails"
+#: ./skins/RichDocument/richdocument_view_preview.pt.metadata
+msgid "Preview thumbnails"
+msgstr "Gallerie d'images"
+
+#. Default: "Rich document"
+#: ./content/richdocument.py
+msgid "Rich document"
+msgstr "Article"
+
+#. Default: "A document which can contain rich text, images and attachments"
+#: ./content/richdocument.py
+msgid "RichDocument_description_edit"
+msgstr ""
+

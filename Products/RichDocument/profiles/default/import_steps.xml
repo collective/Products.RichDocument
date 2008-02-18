@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<import-steps>
+ <import-step id="richdocument" version="20070312-01"
+              handler="Products.RichDocument.setuphandlers.setupRichDocument"
+              title="RichDocument configuration">
+  <dependency step="properties"/>
+  <dependency step="types"/>
+    Set up RichDocument navigation properties
+ </import-step>
+</import-steps>
