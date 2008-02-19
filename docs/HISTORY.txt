@@ -11,3 +11,12 @@ Changelog
 * Repackaged RichDocument in egg form
   [wichert]
 
+* Modernise installation logic to use GenericSetup better.
+  [optilude]
+
+* Set "add" permissions to make contributor role work properly .
+  [optilude]
+
+* Add i18n domain to the zcml files to make the package title and
+  FTI information translatable in the RichDocument domain.
+  [optilude]
