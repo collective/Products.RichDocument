@@ -1,8 +1,11 @@
 Changelog
 =========
 
-3.0.2
------
+3.0.3 - UNRELEASED
+------------------
+
+3.0.2 - February 19, 2008
+-------------------------
 
 * Register the skin layers for all skins. Without this RichDocument would
   not work when installed in sites using a custom theme.
