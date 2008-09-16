@@ -1,0 +1,124 @@
+# Dorneles Treméa <deo@plonesolutions.com>, 2006.
+# Sébastien Douche <sdouche@gmail.com>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: RichDocument\n"
+"POT-Creation-Date: 2006-02-27 16:44+0000\n"
+"PO-Revision-Date: 2008-09-16 21:46+0200\n"
+"Last-Translator: Vladimir Iliev <vladimir.iliev@gmail.com>\n"
+"Language-Team: Translation Team <plone-i18n@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: bg\n"
+"Language-Name: Bulgarian\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: richdocument\n"
+"X-Poedit-Language: Bulgarian\n"
+"X-Poedit-Country: BULGARIA\n"
+
+#. Default: "Change titles"
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "Change titles"
+msgstr "Промяна на заглавия"
+
+#. Default: "Delete selected"
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "Delete selected"
+msgstr "Изтриване на избрания"
+
+#. Default: "Move first"
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "Move first"
+msgstr "Преместване първи"
+
+#. Default: "If selected, a list of uploaded attachments will be presented at the bottom of the document to allow them to be easily downloaded."
+#: ./content/richdocument.py
+msgid "RichDocument_help_displayAttachments"
+msgstr "Ако е избран, ще бъде показан списък с прикачените файлове в края на страницата."
+
+#. Default: "If selected, a list of uploaded images will be presented at the bottom of the document to allow them to be easily downloaded."
+#: ./content/richdocument.py
+msgid "RichDocument_help_displayImages"
+msgstr "Ако е избран, ще бъде показан списък с прикачените изображения в края на страницата."
+
+#. Default: "Display attachments download box"
+#: ./content/richdocument.py
+msgid "RichDocument_label_displayAttachments"
+msgstr "Показване на кутийка с прикачените файлове"
+
+#. Default: "Display images download box"
+#: ./content/richdocument.py
+msgid "RichDocument_label_displayImages"
+msgstr "Показване на кутийка с прикачените изображения"
+
+#. Default: "Upload"
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "Upload"
+msgstr "Зареждане"
+
+#. Default: "Once an image is uploaded, you can refer to it in your body text by its filename."
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+msgid "help_widget_imagesmanager_upload"
+msgstr "Веднъж като се зареди изображението, вие може да го вмъкнете в текста."
+
+#. Default: "Select an attachment to add and click 'Upload'"
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "help_widgetattachmentsmanager_attachment"
+msgstr "Изберете файл за прикачане и щракнете 'Зареждане'"
+
+#. Default: "Enter a title for the attachment"
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "help_widgetattachmentsmanager_title"
+msgstr "Въведете заглавие на прикачения файл"
+
+#. Default: "Once an attachment is uploaded, you can refer to it in your body text by its filename."
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "help_widgetattachmentsmanager_upload"
+msgstr "Веднъж като се зареди файла, вие може да го вмъкнете в текста."
+
+#. Default: "Select an image to add and click 'Upload'"
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+msgid "help_widgetimagesmanager_images"
+msgstr "Изберете избражение за прикачане и щракнете 'Зареждане'"
+
+#. Default: "Enter a title for the image"
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+msgid "help_widgetimagesmanager_title"
+msgstr "Въведете заглавие на изображението"
+
+#. Default: "Add attachment to document"
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "label_widgetattachmentsmanager_title"
+msgstr "Прикачане на файл към документа"
+
+#. Default: "Add image to document"
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+msgid "label_widgetimagesmanager_title"
+msgstr "Добавяне на изображение към документа"
+
+#. Default: "Attachments"
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "legend_attachments"
+msgstr "Прикачени"
+
+#. Default: "Images"
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+msgid "legend_images"
+msgstr "Изображения"
+
+#. Default: "Attachment management controls"
+#: ./skins/attachment_widgets/widget_attachmentsmanager.pt
+msgid "title_widgetattachmentsmanager"
+msgstr "Управление на прикачени файлове"
+
+#. Default: "Image management controls"
+#: ./skins/attachment_widgets/widget_imagesmanager.pt
+msgid "title_widgetimagesmanager"
+msgstr "Управление на изображения"
+
