@@ -1,5 +1,6 @@
 # Translation of richdocument.pot to Italian
-# Alberto Berti <alberto@metapensiero.it>, 2006.
+# Dorneles Treméa <deo@plonesolutions.com>, 2006.
+# Sébastien Douche <sdouche@gmail.com>, 2005.
 msgid ""
 msgstr ""
 "Project-Id-Version: RichDocument\n"
