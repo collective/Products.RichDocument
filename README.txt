@@ -30,9 +30,7 @@ Installation
 Install in the usual way, using the QuickInstaller or Plone's Add/Remove
 Products control panel.
 
-You must first install SimpleAttachment 1.1, then RichDocument.
-
-This version works with Plone 3.0 only. Version 2.0 works with 2.1 and
+This version works with Plone 3 and 4 only. Version 2.0 works with 2.1 and
 2.5. Version 1.0 works with Plone 2.0.
 
 Please see the `Installing an Add-on Product`_ tutorial for more

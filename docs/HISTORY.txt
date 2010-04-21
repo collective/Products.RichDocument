@@ -1,8 +1,24 @@
 Changelog
 =========
 
-3.0.3 - UNRELEASED
-------------------
+3.1 - April 21, 2010
+--------------------
+
+* registerType need to support project name for Plone 4 support
+  [vangheem]
+
+* fixed is_editable call for Plone 4
+  [vangheem]
+
+* handle kupu linkable installation
+  [vangheem]
+
+* remove Extensions install directory
+  [vangheem]
+
+* fixed bulgarian translation
+  [vangheem]
+
 
 3.0.2 - February 19, 2008
 -------------------------

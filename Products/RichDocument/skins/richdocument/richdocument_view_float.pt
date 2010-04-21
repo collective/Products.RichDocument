@@ -1,7 +1,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
       lang="en"
       metal:use-macro="context/main_template/macros/master"
-      i18n:domain="RichDocument">
+      i18n:domain="richdocument">
 <body>
 
 <metal:css fill-slot="css_slot">
@@ -13,7 +13,8 @@
     <tal:main-macro metal:define-macro="main"
            tal:define="text context/getText;
                        images python:context.getFolderContents(contentFilter = {'portal_type' : ['ImageAttachment']});
-                       firstImage python:images and images[0] or None">
+                       firstImage python:images and images[0] or None;
+											 is_editable context/@@plone_context_state/is_editable;">
            
         <div tal:replace="structure provider:plone.abovecontenttitle" />
 

@@ -20,6 +20,10 @@ from Products.ATContentTypes.content.document import ATDocument
 from Products.ATContentTypes.content.document import finalizeATCTSchema
 
 from Products.CMFPlone.interfaces import INonStructuralFolder
+from Products.RichDocument.config import PROJECTNAME
+
+from zope.i18nmessageid import MessageFactory
+_ = MessageFactory("richdocument")
 
 # Copy the ATDocument schema (to avoid modifying the original) and append our
 # own fields for the images and attachments manager widgets.
@@ -29,13 +33,12 @@ RichDocumentSchema = ATDocument.schema.copy() + Schema((
             default=False,
             languageIndependent=0,
             widget=ImagesManagerWidget(
-                description="If selected, a list of uploaded images will be "
+                description=_(u"RichDocument_help_displayImages", 
+                    default=u"If selected, a list of uploaded images will be "
                              "presented at the bottom of the document to allow "
-                             "them to be easily downloaded.",
-                description_msgid='RichDocument_help_displayImages',
-                i18n_domain='richdocument',
-                label="""Display images download box""",
-                label_msgid='RichDocument_label_displayImages',
+                             "them to be easily downloaded."),
+                label=_(u'RichDocument_label_displayImages', 
+                    default=u"Display images download box")
             ),
         ),
 
@@ -43,13 +46,12 @@ RichDocumentSchema = ATDocument.schema.copy() + Schema((
             default=True,
             languageIndependent=0,
             widget=AttachmentsManagerWidget(
-                description="If selected, a list of uploaded attachments will be "
+                description=_(u'RichDocument_help_displayAttachments', 
+                    default=u"If selected, a list of uploaded attachments will be "
                              "presented at the bottom of the document to allow "
-                             "them to be easily downloaded",
-                description_msgid='RichDocument_help_displayAttachments',
-                i18n_domain='richdocument',
-                label="""Display attachments download box""",
-                label_msgid='RichDocument_label_displayAttachments',
+                             "them to be easily downloaded"),
+                label=_(u'RichDocument_label_displayAttachments', 
+                    default="Display attachments download box")
             ),
         ),
 
@@ -101,4 +103,4 @@ class RichDocument(OrderedBaseFolder, ATDocument):
         if "imageFile" in form and form["imageFile"]:
             self.widget_imagesmanager_upload(state=None)
 
-registerType(RichDocument)
+registerType(RichDocument, PROJECTNAME)
