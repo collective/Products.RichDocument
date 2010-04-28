@@ -1,6 +1,17 @@
 Changelog
 =========
 
+3.2 - April 28, 2010
+--------------------
+
+* remove dependency Simple Attachment in metadata.xml to
+  import step since installing the product via metadata.xml
+  will fail since kupu does not think the RichDocument portal
+  is available when Simple Attachment is registering it's
+  kupu linkable types.
+  [vangheem]
+
+
 3.1 - April 21, 2010
 --------------------
 

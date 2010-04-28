@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '3.1'
+version = '3.2'
 
 setup(name='Products.RichDocument',
       version=version,
@@ -29,7 +29,7 @@ setup(name='Products.RichDocument',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          "Products.SimpleAttachment",
+          "Products.SimpleAttachment>=3.4",
       ],
       entry_points="""
       # -*- Entry points: -*-

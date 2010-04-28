@@ -8,11 +8,11 @@
           install the product
       -->
     <gs:registerProfile
-          name="default"
-          title="RichDocument"
-          directory="profiles/default"
-          description="An extension of the default Page type to include image and file attachments"
-          provides="Products.GenericSetup.interfaces.EXTENSION"
-          />
+		name="default"
+		title="RichDocument"
+		directory="profiles/default"
+		description="An extension of the default Page type to include image and file attachments"
+		provides="Products.GenericSetup.interfaces.EXTENSION"
+	/>
     
 </configure>

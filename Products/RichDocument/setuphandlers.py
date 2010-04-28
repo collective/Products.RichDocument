@@ -9,6 +9,10 @@ def setupRichDocument(context):
     
     portal = context.getSite()
     
+    qi = getToolByName(portal, 'portal_quickinstaller')
+    if not (qi.isProductInstalled('Products.SimpleAttachment') or qi.isProductInstalled('SimpleAttachment') or qi.isProductInstalled('Attachment support')):
+        qi.installProduct('Products.SimpleAttachment')
+    
     # Set up form controller actions for the widgets to work
     registerAttachmentsFormControllerActions(portal, contentType = 'RichDocument', template = 'atct_edit')
     registerImagesFormControllerActions(portal, contentType = 'RichDocument', template = 'atct_edit')
