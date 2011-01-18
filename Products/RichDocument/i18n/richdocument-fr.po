@@ -38,22 +38,22 @@ msgstr "Déplacer en premier"
 #. Default: "If selected, a list of uploaded attachments will be presented at the bottom of the document to allow them to be easily downloaded."
 #: ../content/richdocument.py
 msgid "RichDocument_help_displayAttachments"
-msgstr ""
+msgstr "Si la case est cochée, les pièces jointes seront listées en bas de l'article, facilitant leur téléchargement."
 
 #. Default: "If selected, a list of uploaded images will be presented at the bottom of the document to allow them to be easily downloaded."
 #: ../content/richdocument.py
 msgid "RichDocument_help_displayImages"
-msgstr ""
+msgstr "Si la case est cochée, les images seront listées en bas de l'article, facilitant leur téléchargement."
 
 #. Default: "Display attachments download box"
 #: ../content/richdocument.py
 msgid "RichDocument_label_displayAttachments"
-msgstr ""
+msgstr "Proposer le téléchargement des pièces jointes"
 
 #. Default: "Display images download box"
 #: ../content/richdocument.py
 msgid "RichDocument_label_displayImages"
-msgstr ""
+msgstr "Proposer le téléchargement des images"
 
 #. Default: "Upload"
 #: ./skins/attachment_widgets/widget_imagesmanager.pt
@@ -69,17 +69,17 @@ msgstr "Une fois que l'image est téléchargée, vous pouvez y faire référence dans
 #. Default: "Select an attachment to add and click 'Upload'"
 #: ./skins/attachment_widgets/widget_attachmentsmanager.pt
 msgid "help_widgetattachmentsmanager_attachment"
-msgstr "Sélectionnez un attachement à ajouter et cliquez sur 'Télécharger'."
+msgstr "Sélectionnez une pièce jointe à ajouter et cliquez sur 'Télécharger'."
 
 #. Default: "Enter a title for the attachment"
 #: ./skins/attachment_widgets/widget_attachmentsmanager.pt
 msgid "help_widgetattachmentsmanager_title"
-msgstr "Entrer un titre pour l'attachement."
+msgstr "Titre de la pièce jointe."
 
 #. Default: "Once an attachment is uploaded, you can refer to it in your body text by its filename."
 #: ./skins/attachment_widgets/widget_attachmentsmanager.pt
 msgid "help_widgetattachmentsmanager_upload"
-msgstr "Une fois que l'attachement est téléchargé, vous pouvez y faire référence dans le corps du texte par son nom."
+msgstr "Une fois que la pièce jointe est téléchargée, vous pouvez y faire référence dans le corps du texte par son nom."
 
 #. Default: "Select an image to add and click 'Upload'"
 #: ./skins/attachment_widgets/widget_imagesmanager.pt
@@ -94,7 +94,7 @@ msgstr "Enter le nom pour l'image."
 #. Default: "Add attachment to document"
 #: ./skins/attachment_widgets/widget_attachmentsmanager.pt
 msgid "label_widgetattachmentsmanager_title"
-msgstr "Ajouter un attachement au document"
+msgstr "Ajouter une pièce jointe au document"
 
 #. Default: "Add image to document"
 #: ./skins/attachment_widgets/widget_imagesmanager.pt
@@ -104,7 +104,7 @@ msgstr "Ajouter une image au document"
 #. Default: "Attachments"
 #: ./skins/attachment_widgets/widget_attachmentsmanager.pt
 msgid "legend_attachments"
-msgstr "Attachements"
+msgstr "Pièces jointes"
 
 #. Default: "Images"
 #: ./skins/attachment_widgets/widget_imagesmanager.pt
@@ -114,7 +114,7 @@ msgstr "Images"
 #. Default: "Attachment management controls"
 #: ./skins/attachment_widgets/widget_attachmentsmanager.pt
 msgid "title_widgetattachmentsmanager"
-msgstr "Gestion des attachements"
+msgstr "Gestion des pièces jointes"
 
 #. Default: "Image management controls"
 #: ./skins/attachment_widgets/widget_imagesmanager.pt
