@@ -24,6 +24,12 @@ from Products.RichDocument.config import *
 # Register skin directories so they can be added to portal_skins
 DirectoryView.registerDirectory('skins', globals())
 
+# Register the TinyMCE Upload adpater if TinyMCE is present
+try:
+    from Products.RichDocument import tinymce
+except ImportError:
+    pass
+
 def initialize(context):
 
     # Import the type, which results in registerType() being called

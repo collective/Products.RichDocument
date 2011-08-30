@@ -1,6 +1,12 @@
 Changelog
 =========
 
+3.3 - Unreleased
+----------------
+
+* Added Upload adapter for TinyMCE.
+   [tesdal]
+
 3.2 - April 28, 2010
 --------------------
 
