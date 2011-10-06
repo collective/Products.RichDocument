@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '3.3'
+version = '3.4'
 
 setup(name='Products.RichDocument',
       version=version,
