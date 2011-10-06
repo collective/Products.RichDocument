@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.3 - Unreleased
+3.3 - 2011-10-06
 ----------------
 
 * Added Upload adapter for TinyMCE.

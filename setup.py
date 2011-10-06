@@ -16,12 +16,11 @@ setup(name='Products.RichDocument',
         "License :: OSI Approved :: GNU General Public License (GPL)",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
-        "Topic :: Software Development :: Libraries :: Python Modules",
         ],
       keywords='Plone RichDocument attachments images files',
       author='Martin Aspeli',
       author_email='optilude@gmx.net',
-      url='https://svn.plone.org/svn/collective/Products.RichDocument/trunk',
+      url='http://pypi.python.org/pypi/Products.RichDocument',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['Products'],
@@ -31,8 +30,5 @@ setup(name='Products.RichDocument',
           'setuptools',
           "Products.SimpleAttachment>=3.4",
       ],
-      entry_points="""
-      # -*- Entry points: -*-
-      """,
       )
 
