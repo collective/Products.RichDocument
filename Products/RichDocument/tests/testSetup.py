@@ -5,7 +5,7 @@ class TestInstallation(base.RichDocumentTestCase):
 
     def afterSetUp(self):
         self.css        = self.portal.portal_css
-        self.kupu       = self.portal.kupu_library_tool
+        self.tiny       = self.portal.portal_tinymce
         self.skins      = self.portal.portal_skins
         self.types      = self.portal.portal_types
         self.factory    = self.portal.portal_factory
@@ -28,8 +28,8 @@ class TestInstallation(base.RichDocumentTestCase):
         parentMetaTypesNotToQuery = self.properties.navtree_properties.getProperty('parentMetaTypesNotToQuery')
         self.failUnless('RichDocument' in parentMetaTypesNotToQuery)
     
-    def testKupuResources(self):
-        linkable = self.kupu.getPortalTypesForResourceType('linkable')
+    def testTinyResources(self):
+        linkable = self.tiny.linkable.split('\n')
         self.failUnless('RichDocument' in linkable)
         
     def testSimpleAttachmentInstalled(self):
