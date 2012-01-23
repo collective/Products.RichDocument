@@ -1,7 +1,10 @@
 Changelog
 =========
 
-3.4 - unreleased
+3.5 - unreleased
+----------------
+
+3.4 - 2012-01-23
 ----------------
 
 * Use getWidth/getHeight for image attachment thumbnails to prevent
