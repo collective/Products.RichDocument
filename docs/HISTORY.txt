@@ -4,6 +4,9 @@ Changelog
 3.4 - unreleased
 ----------------
 
+* Use getWidth/getHeight for image attachment thumbnails to prevent
+  unauthorized errors.
+  [mj]
 
 3.3 - 2011-10-06
 ----------------
