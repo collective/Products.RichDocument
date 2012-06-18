@@ -19,6 +19,7 @@ from Products.SimpleAttachment.widget import ImagesManagerWidget
 from Products.ATContentTypes.content.document import ATDocument
 from Products.ATContentTypes.content.document import finalizeATCTSchema
 
+from Products.CMFDynamicViewFTI.browserdefault import BrowserDefaultMixin
 from Products.CMFPlone.interfaces import INonStructuralFolder
 from Products.RichDocument.config import PROJECTNAME
 
@@ -33,11 +34,11 @@ RichDocumentSchema = ATDocument.schema.copy() + Schema((
             default=False,
             languageIndependent=0,
             widget=ImagesManagerWidget(
-                description=_(u"RichDocument_help_displayImages", 
+                description=_(u"RichDocument_help_displayImages",
                     default=u"If selected, a list of uploaded images will be "
                              "presented at the bottom of the document to allow "
                              "them to be easily downloaded."),
-                label=_(u'RichDocument_label_displayImages', 
+                label=_(u'RichDocument_label_displayImages',
                     default=u"Display images download box")
             ),
         ),
@@ -46,11 +47,11 @@ RichDocumentSchema = ATDocument.schema.copy() + Schema((
             default=True,
             languageIndependent=0,
             widget=AttachmentsManagerWidget(
-                description=_(u'RichDocument_help_displayAttachments', 
+                description=_(u'RichDocument_help_displayAttachments',
                     default=u"If selected, a list of uploaded attachments will be "
                              "presented at the bottom of the document to allow "
                              "them to be easily downloaded"),
-                label=_(u'RichDocument_label_displayAttachments', 
+                label=_(u'RichDocument_label_displayAttachments',
                     default="Display attachments download box")
             ),
         ),
@@ -77,6 +78,10 @@ class RichDocument(OrderedBaseFolder, ATDocument):
 
     # Make sure we get title-to-id generation when an object is created
     _at_rename_after_creation = True
+
+    # This returns the correct rendered Page when we call the RichDocument
+    # context.
+    __call__ = BrowserDefaultMixin.__call__
 
     # This method, from ISelectableBrowserDefault, is used to check whether
     # the "Choose content item to use as deafult view" option will be
