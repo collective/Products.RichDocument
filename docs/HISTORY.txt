@@ -5,6 +5,7 @@ Changelog
 ----------------
 
 * return the correctly rendered page when calling the RichDocument context
+* moved to github
   [petschki]
 
 3.4 - 2012-01-23

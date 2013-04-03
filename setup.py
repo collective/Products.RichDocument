@@ -5,9 +5,9 @@ version = '3.5'
 
 setup(name='Products.RichDocument',
       version=version,
-      description="Document type for Plone which allows users to upload " 
-                  "images directly into the document during editing", 
-      long_description=open("README.txt").read() + "\n" +
+      description="Document type for Plone which allows users to upload "
+                  "images directly into the document during editing",
+      long_description=open("README.md").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       classifiers=[
         "Development Status :: 5 - Production/Stable",
