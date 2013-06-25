@@ -8,6 +8,7 @@ Changelog
 * moved to github
   [petschki]
 * removed document_relateditems macro, caused problems with p.a.multilingual
+  [agitator]
 
 3.4 - 2012-01-23
 ----------------
