@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.5.1 - unreleased
+3.5.1 (2014-08-21)
 ------------------
 
 * fixes MANIFEST.in in order to fix last broken release
