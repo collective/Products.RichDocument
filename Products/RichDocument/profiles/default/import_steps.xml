@@ -3,8 +3,7 @@
  <import-step id="richdocument" version="20070312-01"
               handler="Products.RichDocument.setuphandlers.setupRichDocument"
               title="RichDocument configuration">
-  <dependency step="properties"/>
-  <dependency step="types"/>
+  <dependency step="toolset"/>
     Set up RichDocument navigation properties
  </import-step>
 </import-steps>
